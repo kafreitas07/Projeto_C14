@@ -1,0 +1,28 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+venv/
+*.env
+*.venv
+
+# Poetry
+.poetry/
+poetry.lock
+
+# Flask
+instance/
+*.db
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
