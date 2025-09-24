@@ -19,4 +19,3 @@ O objetivo deste projeto é criar uma aplicação simples que permita aos usuár
 ## Estrutura do Projeto
 
 A estrutura do projeto segue um modelo simples, mas organizado, com a aplicação Flask funcionando como backend e gerenciando arquivos.
-
