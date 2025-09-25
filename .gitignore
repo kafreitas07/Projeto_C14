@@ -26,3 +26,6 @@ instance/
 
 # Windows
 Thumbs.db
+
+# Arquivos de configuração do PyCharm
+.idea/
