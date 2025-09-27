@@ -25,7 +25,7 @@ def run_menu():
             material = str(input('Insira o material da caixa: '))
 
             volume_info = volume(length, width, height)
-            if volume_info <= 15:
+            if volume_info <= 15.0:
                 tamanho_info = get_tamanho(length, width, height)
                 material_info = get_material(material)
 
@@ -34,7 +34,7 @@ def run_menu():
 
                 print(f'Caixas inseridas! Novo total: {gerenciar_total()}')
 
-            elif volume_info > 15:
+            elif volume_info > 15.0:
                 print(f'A caixa com volume de {volume_info:.2f} m³ excede o limite máximo de 15 m³ e não será inserida.')
 
         elif aux1 == 3:
@@ -48,7 +48,8 @@ def run_menu():
         else:
             print("Opção não reconhecida.")
 
-run_menu()
+if __name__ == "__main__":
+    run_menu()
 
 
 
